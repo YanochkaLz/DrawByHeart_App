@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    cursor: none;
+}
+
+.color {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+
+.cursor {
+    transform: translate3d(var(--move-x), var(--move-y), 0); 
+    transition: .05s ease;
+    will-change: transform;
+    position: absolute;
+    position: fixed;
+    top: -5%;
+    left: -5%;
+}
+
+.hid2 {
+    display: none;
+}
+
+.clean {
+    height: 10vh;
+    width: 15vh;
+    background-image: url('./img/eraser_PNG37.png');
+    background-size: 6vw 6vh;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.clean:hover {
+    background-size: 7.6vw 7.6vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+    background-color: #333;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.black {
+    background-color: black;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.yellow:hover {
+    box-shadow: 0px 0px 10px 10px yellow;
+}
+
+.red:hover {
+    box-shadow: 0px 0px 10px 10px red;
+}
+
+.blue:hover {
+    box-shadow: 0px 0px 10px 10px blue;
+}
+
+.green:hover {
+    box-shadow: 0px 0px 10px 10px green;
+}
+
+.orange:hover {
+    box-shadow: 0px 0px 10px 10px orange;
+}
+
+.black:hover {
+    box-shadow: 0px 0px 10px 10px black;
+}
+
+.pink:hover {
+    box-shadow: 0px 0px 10px 10px pink;
+}
+
+.hid {
+    display: none;
+}
+
+.pain {
+    background-image: url('./img/Paint-Brush-Free-Download-PNG.png');
+    height: 80px;
+    width: 80px;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-position:right;
+    z-index: 3;
+    transform: translate3d(var(--movep-x), var(--movep-y), 0); 
+    transition: .05s ease;
+    will-change: transform;
+    position: fixed;
+    top: -11.5%;
+    left: 0%;
+    /* border: #333 2px solid; */
+}
+.pain-circle {
+    border: #333 2px solid;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20%;
+    left: -20%;
+    display: none;
+}
+
+.bin {
+    background-image: url('./img/—Pngtree—silver\ metal\ trash\ bin\ clipart_5947990.png');
+    height: 150px;
+    width: 150px;
+    background-size: 130px 130px;
+    background-position: center;
+    position: absolute;
+    top: 5%;
+    right: 0%;
+}
+.bin:hover {
+    background-size: 150px 150px;
+}
+
+.play {
+    background-image: url('./img/—Pngtree—cartoon\ purple\ play\ button\ element_5555030.png');
+    height: 110px;
+    width: 110px;
+    background-size: 100px 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 22%;
+    right: 1%;
+}
+.play:hover {
+    background-size: 110px 110px;
+}
